@@ -84,7 +84,7 @@ Storage Default
 <IdLocation>^User.WWWidgetD</IdLocation>
 <IndexLocation>^User.WWWidgetI</IndexLocation>
 <StreamLocation>^User.WWWidgetS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }

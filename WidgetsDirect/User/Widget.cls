@@ -14,7 +14,7 @@ Property Deleted as %Boolean;
 
 Relationship Accessories As User.WidgetAccessoryLink [ Cardinality = many, Inverse = Widget ];
 
-Method toJSON(traverseRelationships As %Boolean = 0) As %String
+Method toJSON(traverseRelationships As %Boolean = 0) As %DynamicObject
 {
 	
 	set jsonReturn = {}
@@ -80,7 +80,7 @@ Storage Default
 <IdLocation>^User.WidgetD</IdLocation>
 <IndexLocation>^User.WidgetI</IndexLocation>
 <StreamLocation>^User.WidgetS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }

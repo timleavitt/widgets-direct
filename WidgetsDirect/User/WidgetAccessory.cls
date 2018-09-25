@@ -20,7 +20,7 @@ Property SKU As %String;
 
 Relationship Widgets As User.WidgetAccessoryLink [ Cardinality = many, Inverse = Accessory ];
 
-Method toJSON(traverseRelationships As %Boolean = 0) As %String
+Method toJSON(traverseRelationships As %Boolean = 0) As %DynamicObject
 {
 	
 	set jsonReturn = {}
@@ -83,7 +83,7 @@ Storage Default
 <IdLocation>^User.WidgetAccessoryD</IdLocation>
 <IndexLocation>^User.WidgetAccessoryI</IndexLocation>
 <StreamLocation>^User.WidgetAccessoryS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }

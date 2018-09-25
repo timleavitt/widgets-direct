@@ -27,7 +27,7 @@ Storage Default
 <IdLocation>^User.WidgetAccessoryLinkD</IdLocation>
 <IndexLocation>^User.WidgetAccessoryLinkI</IndexLocation>
 <StreamLocation>^User.WidgetAccessoryLinkS</StreamLocation>
-<Type>%Library.CacheStorage</Type>
+<Type>%Storage.Persistent</Type>
 }
 
 }
